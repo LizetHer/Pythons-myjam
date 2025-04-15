@@ -1,0 +1,17 @@
+
+# Online Python - IDE, Editor, Compiler, Interpreter
+
+print(" \t NEW STUDENT")
+print("------------------")
+studentID = input("Enter ID:")
+major = input("Enter major:")
+GPA = input("Enter GPA:")
+
+print()
+print(" STUDENT DATABASE")
+print("------------------")
+print("ID \t MAJOR \t GPA")
+print("------------------")
+print("1234 \t BIOL \t 3.2")
+print("4567 \t MATH \t 2.5")
+print( studentID, "\t", major, "\t", GPA)
