@@ -1,0 +1,25 @@
+#The program to calculate the volume and surface of a cone.
+#Start Display
+import math
+
+print("CONE CALCULATOR")
+print(15 * "-", "\n")
+
+#Read in a number from the user
+height = float(input("Enter the Height: "))
+radius = float(input("Enter the Radius: "))
+print()
+
+#Computer to inputs to decimals
+print(f'> You\'ve entered a cone with a height of {height:.1f}', end="")
+print(f' and a radius of {radius:.1f}', "\n")
+
+#Calculate for the surface of a cone
+sur_area = math.pi * radius * (radius + math.sqrt(height**2 + height **2))
+
+#Calculate for the surface of a cone
+volume = math.pi * radius ** 2 * height/3
+
+# Compute the volume and surface area of a cone
+print(f'Surface Area {sur_area:.3f}')
+print(f'Volume: {volume:.3f}')
