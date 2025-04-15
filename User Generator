@@ -1,0 +1,21 @@
+# prompt user for username and password
+
+lastname = input('Enter lastname: ')
+num = int(input('favorite number: '))
+sym = input('Enter a symbol: ')
+color = input('Enter favorite color: ')
+food = input('Enter favorite food: ')
+
+#Print credientals
+print("USERNAME & PASSWORD GENERATOR")
+print(10 * '-')
+print("Entered lastname: ", lastname)
+print("favorite number: ", num)
+print("Entered a symbol: ", sym)
+print("Entered favorite food: ", food)
+print()
+print("SECURED CREDIENTALS")
+print(10 * '-')
+print("Username: ", lastname + "_", end="")
+print(num)
+print("Password: ", color + sym + food)
