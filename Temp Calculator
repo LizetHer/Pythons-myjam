@@ -1,0 +1,17 @@
+#Program:  calculares Fahrenheit to Kelvin degrees
+
+print("Temperature Calculator")
+print(20 * "-")
+
+
+#Read in a floating NUM from the user
+print("Enter the temperature in Fahrenheit\n", end='')
+temp = float(input("Temp: "))
+print()
+
+#Compute K = (F-32)( 5/9) + 273.15
+kelvin = (temp - 32) * 5/9 + 273.15
+
+#Calcuate Temp input to Kelvin
+print(f'{temp:.2f} in Fahrenheit is ', end='')
+print(f'{kelvin:.2} in Kelvin.')
