@@ -1,0 +1,26 @@
+#Program decodes user ASCII code input.
+
+#Start of Display
+print("ASCII MESSAGE DECODER")
+print(20 * "-")
+print("Enter 4 ASSCII codes between 97 and 122 \n")
+
+# Read the ASCII NUmbers from user
+input1 = int(input("Enter first code: "))
+input2 = int(input("Enter second code: "))
+input3 = int(input("Enter third code: "))
+input4 = int(input("Enter fourth code: "))
+print()
+
+#Start decoding
+input('> Press Enter to decode \n')
+print("Message decoded! \n")
+
+#decoding ascii codes
+print("The ASCII codes", input1, input2, input3, input4, "Translate to ", end="")
+print("'", end="")
+print(chr(input1),end="")
+print(chr(input2),end="")
+print(chr(input3),end="")
+print(chr(input3),end="")
+print("'")
